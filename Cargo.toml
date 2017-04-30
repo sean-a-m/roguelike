@@ -5,3 +5,8 @@ authors = ["sean <ut.seanm@gmail.com>"]
 
 [dependencies]
 rustty = "*"
+
+
+[dependencies.uuid]
+version = "*"
+features = ["v4"]
