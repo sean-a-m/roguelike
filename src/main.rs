@@ -5,6 +5,7 @@ extern crate ndarray;
 mod viewport;
 mod substance;
 mod grid;
+mod eventqueue;
 
 use rustty::{Terminal, Cell as TTYCell, HasSize, CellAccessor, Event};
 use rustty::ui::{Widget, Alignable, HorizontalAlign, VerticalAlign};
